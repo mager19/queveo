@@ -1,3 +1,11 @@
 body {
 	@apply bg-navy font-redHat;
 }
+
+.item__show {
+	transition: 0.1s all ease-in-out;
+}
+
+.item__show:hover {
+	opacity: 0.9;
+}
